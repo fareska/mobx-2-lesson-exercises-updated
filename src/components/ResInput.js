@@ -6,6 +6,7 @@ class ResInput extends Component {
     inputHandler = (e) => {
         this.props.GeneralStore.handleInput(e.target.name, e.target.value)
     }
+    
     render () {
         return (
             <div>
